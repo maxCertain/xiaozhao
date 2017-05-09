@@ -1,0 +1,6 @@
+framework module Pods_xiaozhao {
+  umbrella header "Pods-xiaozhao-umbrella.h"
+
+  export *
+  module * { export * }
+}

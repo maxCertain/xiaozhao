@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D13405121EB043A400368EF3 /* StudentClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D13405101EB043A400368EF3 /* StudentClass.cpp */; };
+		D13405151EB04DD700368EF3 /* DataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D13405141EB04DD700368EF3 /* DataClass.m */; };
+		D13405181EB052F500368EF3 /* WeatherDetailViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = D13405171EB052F500368EF3 /* WeatherDetailViewController.mm */; };
+		D134051B1EB0709B00368EF3 /* HeightCaculateModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D13405191EB0709B00368EF3 /* HeightCaculateModel.cpp */; };
+		D1573B631EB1784600CCBE68 /* RequestClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1573B611EB1784600CCBE68 /* RequestClass.cpp */; };
+		D1573B821EB18BB600CCBE68 /* MyBlutoothClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D1573B811EB18BB600CCBE68 /* MyBlutoothClass.m */; };
+		D1573B861EB1C4BA00CCBE68 /* SocketClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D1573B851EB1C4BA00CCBE68 /* SocketClass.m */; };
+		D1573B881EB1CABC00CCBE68 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1573B871EB1CABC00CCBE68 /* CocoaAsyncSocket.framework */; };
+		D1711D921E9B641E008B5489 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1711D911E9B641E008B5489 /* Images.xcassets */; };
 		D1CF3FE21E8F7A4600308A2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CF3FE11E8F7A4600308A2C /* main.m */; };
 		D1CF3FE51E8F7A4600308A2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CF3FE41E8F7A4600308A2C /* AppDelegate.m */; };
 		D1CF3FEB1E8F7A4600308A2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1CF3FE91E8F7A4600308A2C /* Main.storyboard */; };
@@ -33,6 +42,8 @@
 		D1CF40541E8F8D0F00308A2C /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CF403E1E8F8D0F00308A2C /* UIProgressView+AFNetworking.m */; };
 		D1CF40551E8F8D0F00308A2C /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CF40401E8F8D0F00308A2C /* UIRefreshControl+AFNetworking.m */; };
 		D1CF40561E8F8D0F00308A2C /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CF40421E8F8D0F00308A2C /* UIWebView+AFNetworking.m */; };
+		D1CF40901E8FAA0000308A2C /* ServerTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CF408F1E8FAA0000308A2C /* ServerTools.m */; };
+		D1FA68885B9731C9F339D7FF /* Pods_xiaozhao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7EE2AF5EEF07DEC9A3C30D4 /* Pods_xiaozhao.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +64,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		023020F17645EC6FA5F13C7B /* Pods-xiaozhao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xiaozhao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xiaozhao/Pods-xiaozhao.debug.xcconfig"; sourceTree = "<group>"; };
+		D13405101EB043A400368EF3 /* StudentClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StudentClass.cpp; sourceTree = "<group>"; };
+		D13405111EB043A400368EF3 /* StudentClass.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = StudentClass.hpp; sourceTree = "<group>"; };
+		D13405131EB04DD700368EF3 /* DataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataClass.h; sourceTree = "<group>"; };
+		D13405141EB04DD700368EF3 /* DataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataClass.m; sourceTree = "<group>"; };
+		D13405161EB052F500368EF3 /* WeatherDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherDetailViewController.h; sourceTree = "<group>"; };
+		D13405171EB052F500368EF3 /* WeatherDetailViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WeatherDetailViewController.mm; sourceTree = "<group>"; };
+		D13405191EB0709B00368EF3 /* HeightCaculateModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HeightCaculateModel.cpp; sourceTree = "<group>"; };
+		D134051A1EB0709B00368EF3 /* HeightCaculateModel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HeightCaculateModel.hpp; sourceTree = "<group>"; };
+		D1573B611EB1784600CCBE68 /* RequestClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RequestClass.cpp; sourceTree = "<group>"; };
+		D1573B621EB1784600CCBE68 /* RequestClass.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RequestClass.hpp; sourceTree = "<group>"; };
+		D1573B801EB18BB600CCBE68 /* MyBlutoothClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBlutoothClass.h; sourceTree = "<group>"; };
+		D1573B811EB18BB600CCBE68 /* MyBlutoothClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBlutoothClass.m; sourceTree = "<group>"; };
+		D1573B841EB1C4BA00CCBE68 /* SocketClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketClass.h; sourceTree = "<group>"; };
+		D1573B851EB1C4BA00CCBE68 /* SocketClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketClass.m; sourceTree = "<group>"; };
+		D1573B871EB1CABC00CCBE68 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = "../../../Library/Developer/Xcode/DerivedData/xiaozhao-alnmzosmqifoqwaanhwayaadvzkc/Build/Products/Debug-iphoneos/CocoaAsyncSocket/CocoaAsyncSocket.framework"; sourceTree = "<group>"; };
+		D1711D911E9B641E008B5489 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D1CF3FDD1E8F7A4600308A2C /* xiaozhao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xiaozhao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1CF3FE11E8F7A4600308A2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D1CF3FE31E8F7A4600308A2C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -108,6 +136,10 @@
 		D1CF40401E8F8D0F00308A2C /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		D1CF40411E8F8D0F00308A2C /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		D1CF40421E8F8D0F00308A2C /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		D1CF408E1E8FAA0000308A2C /* ServerTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServerTools.h; path = ../ServerTools.h; sourceTree = "<group>"; };
+		D1CF408F1E8FAA0000308A2C /* ServerTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ServerTools.m; path = ../ServerTools.m; sourceTree = "<group>"; };
+		D7EE2AF5EEF07DEC9A3C30D4 /* Pods_xiaozhao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xiaozhao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E73F9257F89555883A94B5C7 /* Pods-xiaozhao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xiaozhao.release.xcconfig"; path = "Pods/Target Support Files/Pods-xiaozhao/Pods-xiaozhao.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +147,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1573B881EB1CABC00CCBE68 /* CocoaAsyncSocket.framework in Frameworks */,
+				D1FA68885B9731C9F339D7FF /* Pods_xiaozhao.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +169,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40BDFBD041F48E2BFD9CD7FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1573B871EB1CABC00CCBE68 /* CocoaAsyncSocket.framework */,
+				D7EE2AF5EEF07DEC9A3C30D4 /* Pods_xiaozhao.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C25A6C22F09EC1B732C1B3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				023020F17645EC6FA5F13C7B /* Pods-xiaozhao.debug.xcconfig */,
+				E73F9257F89555883A94B5C7 /* Pods-xiaozhao.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D1573B7F1EB18B9800CCBE68 /* CoreBlu */ = {
+			isa = PBXGroup;
+			children = (
+				D1573B801EB18BB600CCBE68 /* MyBlutoothClass.h */,
+				D1573B811EB18BB600CCBE68 /* MyBlutoothClass.m */,
+			);
+			path = CoreBlu;
+			sourceTree = "<group>";
+		};
+		D1573B831EB1C4A600CCBE68 /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				D1573B841EB1C4BA00CCBE68 /* SocketClass.h */,
+				D1573B851EB1C4BA00CCBE68 /* SocketClass.m */,
+			);
+			path = Socket;
+			sourceTree = "<group>";
+		};
+		D16676E01EA8A4AE00AED7AF /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 		D1CF3FD41E8F7A4600308A2C = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +219,8 @@
 				D1CF3FF91E8F7A4600308A2C /* xiaozhaoTests */,
 				D1CF40041E8F7A4700308A2C /* xiaozhaoUITests */,
 				D1CF3FDE1E8F7A4600308A2C /* Products */,
+				7C25A6C22F09EC1B732C1B3C /* Pods */,
+				40BDFBD041F48E2BFD9CD7FD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -158,6 +237,10 @@
 		D1CF3FDF1E8F7A4600308A2C /* xiaozhao */ = {
 			isa = PBXGroup;
 			children = (
+				D1573B831EB1C4A600CCBE68 /* Socket */,
+				D1573B7F1EB18B9800CCBE68 /* CoreBlu */,
+				D16676E01EA8A4AE00AED7AF /* CoreData */,
+				D1CF40911E8FAA1800308A2C /* tools */,
 				D1CF40441E8F8D0F00308A2C /* AFNetworking */,
 				D1CF40131E8F7BF900308A2C /* main */,
 				D1CF3FE31E8F7A4600308A2C /* AppDelegate.h */,
@@ -166,6 +249,7 @@
 				D1CF3FEC1E8F7A4600308A2C /* Assets.xcassets */,
 				D1CF3FEE1E8F7A4600308A2C /* LaunchScreen.storyboard */,
 				D1CF3FF11E8F7A4600308A2C /* Info.plist */,
+				D1711D911E9B641E008B5489 /* Images.xcassets */,
 				D1CF3FE01E8F7A4600308A2C /* Supporting Files */,
 			);
 			path = xiaozhao;
@@ -202,6 +286,16 @@
 			children = (
 				D1CF40141E8F7C1300308A2C /* MainWeatherViewController.h */,
 				D1CF40151E8F7C1300308A2C /* MainWeatherViewController.m */,
+				D13405101EB043A400368EF3 /* StudentClass.cpp */,
+				D13405111EB043A400368EF3 /* StudentClass.hpp */,
+				D13405131EB04DD700368EF3 /* DataClass.h */,
+				D13405141EB04DD700368EF3 /* DataClass.m */,
+				D13405161EB052F500368EF3 /* WeatherDetailViewController.h */,
+				D13405171EB052F500368EF3 /* WeatherDetailViewController.mm */,
+				D13405191EB0709B00368EF3 /* HeightCaculateModel.cpp */,
+				D134051A1EB0709B00368EF3 /* HeightCaculateModel.hpp */,
+				D1573B611EB1784600CCBE68 /* RequestClass.cpp */,
+				D1573B621EB1784600CCBE68 /* RequestClass.hpp */,
 			);
 			path = main;
 			sourceTree = "<group>";
@@ -302,6 +396,15 @@
 			path = "../../../电梯管理系统/ElevatorSystem/Pods/AFNetworking";
 			sourceTree = "<group>";
 		};
+		D1CF40911E8FAA1800308A2C /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				D1CF408E1E8FAA0000308A2C /* ServerTools.h */,
+				D1CF408F1E8FAA0000308A2C /* ServerTools.m */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -309,9 +412,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1CF400A1E8F7A4700308A2C /* Build configuration list for PBXNativeTarget "xiaozhao" */;
 			buildPhases = (
+				12E0794B4539D0D64DE2EB1E /* [CP] Check Pods Manifest.lock */,
 				D1CF3FD91E8F7A4600308A2C /* Sources */,
 				D1CF3FDA1E8F7A4600308A2C /* Frameworks */,
 				D1CF3FDB1E8F7A4600308A2C /* Resources */,
+				8ABA1EFFD667031A5C45E6DE /* [CP] Embed Pods Frameworks */,
+				B2A7F98C6842D4755C4D1601 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -370,6 +476,7 @@
 					D1CF3FDC1E8F7A4600308A2C = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = R6Y3M6K898;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					D1CF3FF51E8F7A4600308A2C = {
@@ -414,6 +521,7 @@
 				D1CF3FF01E8F7A4600308A2C /* LaunchScreen.storyboard in Resources */,
 				D1CF3FED1E8F7A4600308A2C /* Assets.xcassets in Resources */,
 				D1CF3FEB1E8F7A4600308A2C /* Main.storyboard in Resources */,
+				D1711D921E9B641E008B5489 /* Images.xcassets in Resources */,
 				D1CF404D1E8F8D0F00308A2C /* Info.plist in Resources */,
 				D1CF404B1E8F8D0F00308A2C /* AFNetworking.xcconfig in Resources */,
 			);
@@ -435,12 +543,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12E0794B4539D0D64DE2EB1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8ABA1EFFD667031A5C45E6DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-xiaozhao/Pods-xiaozhao-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2A7F98C6842D4755C4D1601 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-xiaozhao/Pods-xiaozhao-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D1CF3FD91E8F7A4600308A2C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D13405151EB04DD700368EF3 /* DataClass.m in Sources */,
+				D1CF40901E8FAA0000308A2C /* ServerTools.m in Sources */,
 				D1CF40481E8F8D0F00308A2C /* AFSecurityPolicy.m in Sources */,
+				D1573B861EB1C4BA00CCBE68 /* SocketClass.m in Sources */,
+				D1573B631EB1784600CCBE68 /* RequestClass.cpp in Sources */,
 				D1CF404A1E8F8D0F00308A2C /* AFURLResponseSerialization.m in Sources */,
 				D1CF40461E8F8D0F00308A2C /* AFURLSessionManager.m in Sources */,
 				D1CF404C1E8F8D0F00308A2C /* AFNetworking-dummy.m in Sources */,
@@ -452,10 +612,14 @@
 				D1CF40471E8F8D0F00308A2C /* AFNetworkReachabilityManager.m in Sources */,
 				D1CF40451E8F8D0F00308A2C /* AFHTTPSessionManager.m in Sources */,
 				D1CF40501E8F8D0F00308A2C /* AFNetworkActivityIndicatorManager.m in Sources */,
+				D13405121EB043A400368EF3 /* StudentClass.cpp in Sources */,
+				D13405181EB052F500368EF3 /* WeatherDetailViewController.mm in Sources */,
 				D1CF40531E8F8D0F00308A2C /* UIImageView+AFNetworking.m in Sources */,
 				D1CF40521E8F8D0F00308A2C /* UIButton+AFNetworking.m in Sources */,
 				D1CF40551E8F8D0F00308A2C /* UIRefreshControl+AFNetworking.m in Sources */,
 				D1CF40561E8F8D0F00308A2C /* UIWebView+AFNetworking.m in Sources */,
+				D134051B1EB0709B00368EF3 /* HeightCaculateModel.cpp in Sources */,
+				D1573B821EB18BB600CCBE68 /* MyBlutoothClass.m in Sources */,
 				D1CF40491E8F8D0F00308A2C /* AFURLRequestSerialization.m in Sources */,
 				D1CF404E1E8F8D0F00308A2C /* AFAutoPurgingImageCache.m in Sources */,
 				D1CF404F1E8F8D0F00308A2C /* AFImageDownloader.m in Sources */,
@@ -605,27 +769,40 @@
 		};
 		D1CF400B1E8F7A4700308A2C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 023020F17645EC6FA5F13C7B /* Pods-xiaozhao.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = R6Y3M6K898;
 				INFOPLIST_FILE = xiaozhao/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.max.xiaozhao;
+				PRODUCT_BUNDLE_IDENTIFIER = com.max.xiaozh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "xiaozhao-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		D1CF400C1E8F7A4700308A2C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E73F9257F89555883A94B5C7 /* Pods-xiaozhao.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = R6Y3M6K898;
 				INFOPLIST_FILE = xiaozhao/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.max.xiaozhao;
+				PRODUCT_BUNDLE_IDENTIFIER = com.max.xiaozh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "xiaozhao-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -698,6 +875,7 @@
 				D1CF400C1E8F7A4700308A2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1CF400D1E8F7A4700308A2C /* Build configuration list for PBXNativeTarget "xiaozhaoTests" */ = {
 			isa = XCConfigurationList;
@@ -706,6 +884,7 @@
 				D1CF400F1E8F7A4700308A2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1CF40101E8F7A4700308A2C /* Build configuration list for PBXNativeTarget "xiaozhaoUITests" */ = {
 			isa = XCConfigurationList;
@@ -714,6 +893,7 @@
 				D1CF40121E8F7A4700308A2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

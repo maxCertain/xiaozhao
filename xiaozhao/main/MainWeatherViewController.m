@@ -25,6 +25,7 @@
 
 @property(strong, nonatomic) MyBlutoothClass *blutooth;
 
+
 @end
 
 @implementation MainWeatherViewController
@@ -33,9 +34,14 @@
     [super viewDidLoad];
     
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"搜索" style:UIBarButtonItemStylePlain target:self action:@selector(rightItemEvents:)];
+
     
 //    [self setTableView];
     // Do any additional setup after loading the view.
+}
+
+- (void)setView{
+    
 }
 
 - (void)rightItemEvents:(UIBarButtonItem *)item{

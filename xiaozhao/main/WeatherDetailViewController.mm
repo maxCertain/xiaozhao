@@ -11,8 +11,14 @@
 #import "DataClass.h"
 #import "HeightCaculateModel.hpp"
 #import "RequestClass.hpp"
+#import "AnimationTestView.h"
+#import <QuartzCore/QuartzCore.h>
+#import <malloc/malloc.h>
+#import "ChangeLocationViewController.h"
 
 @interface WeatherDetailViewController ()
+
+@property(nonatomic, strong) AnimationTestView *testView;
 
 @end
 
@@ -21,52 +27,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    MyRequestClass request;
-    request.sendGetRequest();
-    
-    MyStudent::showStudentName();
-    
-    MyStudent xiaohua;
-    xiaohua.name = "xiaohua";
-    xiaohua.age = 15;
-    
-    MyStudent *xiaofang = new MyStudent();
-    xiaofang->age = 15;
-    xiaofang->name = "xiaofang";
-    
-    MyStudent xiaoming = *new MyStudent();
-    xiaoming.age = 10;
-    xiaoming.name = "xiaoming";
-
-    [self showName:xiaofang];
-    [self showOtherName:xiaohua];
     
     self.view.backgroundColor = [UIColor whiteColor];
-    
-    size_t length = 10000;
-    int list[length];
-    NSMutableArray *listArray = [NSMutableArray array];
-    for (int i = 0; i < length; i ++) {
-        int num = (rand()%1001);
-        list[i] = num;
-        [listArray addObject:@(num)];
-    }
-    
-    Caculate caculate;
-//
-//    NSLog(@"count is %li",array.count);
-    
-    NSLog(@"time is");
-    
-//    NSArray *array = [self bubbleSort:listArray];
-    
-    std::string str = caculate.bubbleSort(list, length);
-    NSString *arrayString = [NSString stringWithFormat:@"%s",str.c_str()];
-    NSArray *array = [arrayString componentsSeparatedByString:@","];
-    NSLog(@"%li",array.count);
-    NSLog(@"time is");
-    
-    
     
     self.navigationItem.title = @"未来七日";
     
@@ -102,6 +64,27 @@
     }
     
     return array;
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    
+    ChangeLocationViewController *vc = [[ChangeLocationViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+    
+//    [[self creatView] showInView:self.view];
+    
+//    [[self creatView] setNeedsDisplay];
+    
+}
+
+- (AnimationTestView *)creatView{
+    
+//    if (self.testView == nil) {
+        self.testView = [[AnimationTestView alloc] init];
+        self.testView.frame = CGRectMake(0, 0, 100, 100);
+        self.testView.backgroundColor = [UIColor redColor];
+//    }
+    return self.testView;
 }
 
 - (void)didReceiveMemoryWarning {

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AnimationTestView.h"
 
 @interface MainWeatherViewController : UIViewController
 

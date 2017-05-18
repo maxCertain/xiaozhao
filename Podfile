@@ -4,4 +4,5 @@ use_frameworks!
 
 target 'xiaozhao' do
 	pod 'CocoaAsyncSocket'
+    pod 'JPush'
 end
